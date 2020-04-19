@@ -15,4 +15,4 @@ e.g.
 
 ##Running
 
-`pipenv run "python ec2/ec2_list"`
+`pipenv run "python ec2/ec2_list.py"`
