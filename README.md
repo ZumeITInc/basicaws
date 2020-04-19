@@ -17,6 +17,7 @@ e.g.
 
 `pipenv run "python ec2/ec2_list.py"`
 
-To Run 
+##Running
 
-`pipenv run "python ec2/ec2_stop.py <tag-name>"
+`pipenv run "python ec2/ec2_stop.py <tag-name>"`
+
