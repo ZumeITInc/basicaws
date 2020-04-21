@@ -81,10 +81,10 @@ def list_snapshots():
                     s.id,
                     v.id,
                     i.id,
-                    s.status,
+                    s.state,
                     str(s.size) + "Gib",
                     s.progress,
-                    s.starting_time("%c"),
+                    s.start_time("%c"),
                     s.encrypted and "Encrypted" or "Not Encrypted"
                 )))
 
