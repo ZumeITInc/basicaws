@@ -19,5 +19,21 @@ e.g.
 
 ##Running
 
-`pipenv run "python ec2/ec2_stop.py <tag-name>"`
+`pipenv run "python ec2/ec2_stop.py <command> <--tag-name>"`
 
+*command* is list, start, and  stop
+*tag-name* is optional
+
+## Running
+
+`pipenv run "python ec2/ec2_list_volumes.py <command> <--tag-name">`
+
+*command* is list
+*tag-name* is optional
+
+##Running
+
+`pipenv run "python ec2/ec2_list_shnapshots.py <command> <--tag-name>"`
+
+*command* is list, and create_snapshots
+*tag-name* is optional
