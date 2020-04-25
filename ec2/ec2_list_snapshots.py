@@ -11,7 +11,7 @@ def instances():
 @click.option('--project',default=None,
               help="Only instances for project (tag Project:Name)")
 def list_instances(project):
-    "list the ec2 instances"
+    "list the instances"
     instances= []
 
     if project :
