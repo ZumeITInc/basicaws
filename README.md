@@ -40,7 +40,14 @@ e.g.
 
 ##Running
 
-`pipenv run "python s3/s3_list.py" <command> <options>`
+`pipenv run "python s3/s3_list.py <command> <options>"`
 
 *command* is list_buckets or list_objects
 *options* is bucket name to display objects
+
+##Running
+
+ `pipenv run "python s3/s3_static.py <command> "`
+ 
+ *command* is create_bucket or upload_file 
+ 
