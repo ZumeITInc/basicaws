@@ -60,3 +60,5 @@ e.g.
  
  `pipenv run python add_item.py`
  
+ `pipenv run python update_item.py`
+ 
