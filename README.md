@@ -38,9 +38,6 @@ e.g.
 *command* is list, and create_snapshots
 *tag-name* is optional
 
-##Running
-
-`pipenv run "python s3/s3_list.py <command> <options>"`
 
 *command* is list_buckets or list_objects
 *options* is bucket name to display objects
@@ -50,4 +47,16 @@ e.g.
  `pipenv run "python s3/s3_static.py <command> "`
  
  *command* is create_bucket or upload_file 
+##Running
+
+`pipenv run "python s3/s3_list.py <command> <options>"`
+ 
+ 
+ ##Running
+ 
+ `pipenv run python create_table.py`
+ 
+ `pipenv run python load_data.py`
+ 
+ `pipenv run python add_item.py`
  

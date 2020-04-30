@@ -36,4 +36,4 @@ table = client.create_table(
         },
     ]
 )
-print('Table created successfully..')
+print('Table created successfully')
